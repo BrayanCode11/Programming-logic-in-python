@@ -17,7 +17,8 @@ def cant_huevos(x): # x -> Cantidad total de aves en la granja
     return total_huevos_mes
 
 def main():
-    aves = int(input("número de aves que se crian en la granja: "))
+    aves_Total = int(input("número de aves que se crian en la granja: "))
     print("los huevos producidos al mes son=", cant_huevos(aves))
 
 main()    
+
